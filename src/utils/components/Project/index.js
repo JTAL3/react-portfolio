@@ -19,7 +19,7 @@ import { Flex, Spacer } from '@chakra-ui/react'
 import PROJ1 from '../../assets/project-images/datamammoth.jpg';
 import PROJ2 from '../../assets/project-images/weather-dashboard.png';
 import PROJ3 from '../../assets/project-images/work-scheduler.png';
-import PROJ4 from '../../assets/project-images/pick-a-flic.jpg';
+import PROJ4 from '../../assets/project-images/Pick-a-Flic.jpg';
 import PROJ5 from '../../assets/project-images/budget-tracker.png';
 import PROJ6 from '../../assets/project-images/runbuddy.jpg';
 

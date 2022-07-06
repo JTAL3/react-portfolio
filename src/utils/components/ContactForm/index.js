@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { useState } from 'react';
 
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../helpers';
 
 import emailjs from '@emailjs/browser';
 
@@ -102,7 +102,7 @@ export function ContactForm() {
                     <VStack pl={0} spacing={3} alignItems="flex-start">
                       <Button
                         as='a'
-                        href='tel:+7047966327'
+                        href='tel:+7047735592'
                         size="md"
                         height="48px"
                         width="200px"

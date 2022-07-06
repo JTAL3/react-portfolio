@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
-import coverImage from '../../assets/header-images/cover-photo.jpg';
-import profileImage from '../../assets/header-images/profile.jpg';
-import Resume from '../../assets/header-images/Erin-Ewart-Resume.pdf';
+import coverImage from '../../assets/header-images/somethinggreat.jpg';
+import profileImage from '../../assets/header-images/avatar.jpg';
+
 
 import {
   Box,

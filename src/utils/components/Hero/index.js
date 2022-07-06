@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../../assets/header-images/somethinggreat';
+import coverImage from '../../assets/header-images/somethinggreat.jpg';
 import profileImage from '../../assets/header-images/avatar.jpg';
 
 import {

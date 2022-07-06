@@ -7,8 +7,8 @@ import {
 } from '@chakra-ui/react';
 
 
-import Home from './pages/Home'
-import Projects from './pages/Projects'
+import Home from './utils/pages/Home'
+import Projects from './utils/pages/Projects'
 
 
 const font = "'Rock Salt', cursive";
