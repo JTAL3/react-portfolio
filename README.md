@@ -22,4 +22,8 @@
   ### I can also be reached at:
   jason.talbert.jt@gmail.com
   
+  ### Preview
+  ![image](https://user-images.githubusercontent.com/97869791/177501000-b0f58746-ff76-4d13-8f2e-8bb4d5cea360.png)
+
+  
   
