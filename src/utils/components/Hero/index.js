@@ -13,49 +13,40 @@ import {
   Image,
 } from '@chakra-ui/react';
 
-const font = "'Rock Salt', cursive";
-// const styles = theme = ({
-//   introText: {
-//     fontFamily: font,
-//     color: "white"
-//     }
-//   }
-// );
-
+const font = "Arial";
 
 export function Hero() {
   return (
 
       <Flex
         w={'full'}
-        h={'100vh'}
+        h={'40vh'}
         backgroundImage={coverImage}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}>
         <VStack
           w={'full'}
           justify={'center'}
-          px={useBreakpointValue({ base: 4, md: 8 })}
-          bgGradient={'linear(to-r, blackAlpha.600, transparent)'}>
-          <HStack maxW={'3xl'} align={'flex-start'} justify-content={'space-around'} spacing={6}>
-            <VStack direction={'row'} align={'flex-start'} spacing={10}>
+          px={useBreakpointValue({ base: 4, md: 8 })}>
+          <HStack maxW={'4xl'} align={'flex-start'} justify-content={'space-around'} spacing={6}>
+            <VStack direction={'row'} align={'flex-start'} spacing={3}>
               <Text
-                color={'white'}
+                color={'grey'}
                 fontWeight={700}
-                lineHeight={1.2}
+                lineHeight={1}
                 fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-                Welcome! I'm
+                I'm
               </Text>
               <Text
                 fontFamily={font}
                 color={'white'}
                 fontWeight={400}
-                lineHeight={1.4}
+                lineHeight={1}
                 fontSize={useBreakpointValue({ base: '5xl', md: '7xl' })}>
                 Jason Talbert
               </Text>
               <Text
-                color={'white'}
+                color={'grey'}
                 fontWeight={700}
                 lineHeight={1.2}
                 fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
@@ -64,7 +55,7 @@ export function Hero() {
             </VStack>
             <Image
               borderRadius='full'
-              boxSize='300px'
+              boxSize='200px'
               objectFit={'cover'}
               src={profileImage}
               alt='Jason Talbert'></Image>

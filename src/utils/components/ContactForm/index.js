@@ -81,61 +81,52 @@ export function ContactForm() {
   };
 
   return (
-    <Container id='contact-me' bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
+    <Container id='contact-me' bg="black" maxW="full" mt={0} centerContent overflow="hidden">
       <Flex>
         <Box
           id='contact-form'
-          bg="#02054B"
+          bg="gray.500"
           color="white"
           borderRadius="lg"
-          m={{ sm: 4, md: 16, lg: 10 }}
-          p={{ sm: 5, md: 5, lg: 16 }}>
+          m={{ sm: 4, md: 13, lg: 10 }}
+          p={{ sm: 5, md: 5, lg: 13 }}>
           <Box p={4}>
-            <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
+            <Wrap spacing={{ base: 10, sm: 3, md: 5, lg: 10 }}>
               <WrapItem>
                 <Box>
-                  <Heading>Contact Me</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.300" fontSize='24'>
+                  <Heading align="center">Contact Me</Heading>
+                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.300" fontSize='24' align="center">
                    
                   </Text>
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                    <VStack pl={0} spacing={3} alignItems="flex-start">
-                      <Button
-                        as='a'
-                        href='tel:+7047735592'
+                    <VStack pl={2} spacing={2} alignItems="flex-start">
+                      <Box
+                       
                         size="md"
-                        height="48px"
+                        height="28px"
                         width="200px"
                         variant="ghost"
-                        color="#DCE2FF"
-                        _hover={{ border: '2px solid #1C6FEB' }}
-                        leftIcon={<MdPhone color="#1970F1" size="20px" />}>
-                        (704) 773-5592
+                        color="white"
+                        align="center"
+                        fontSize='22'
+                        >
+                       <b> Jason Talbert </b>
 
-                      </Button>
+                      </Box>
                       <Button
                         as='a'
                         href="mailto:jason.talbert.jt@gmail.com"
                         size="md"
-                        height="48px"
+                        height="58px"
                         width="200px"
                         variant="ghost"
-                        color="#DCE2FF"
-                        _hover={{ border: '2px solid #1C6FEB' }}
+                        color="white"
+                        _hover={{ border: '2px solid gray' }}
                         onClick={() => 'mailto:jason.talbert.jt@gmail.com'}
-                        leftIcon={<MdEmail color="#1970F1" size="20px" />}>
+                        leftIcon={<MdEmail color="black" size="20px" />}>
                         jason.talbert.jt@gmail.com
                       </Button>
-                      <Button
-                        size="md"
-                        height="48px"
-                        width="200px"
-                        variant="ghost"
-                        color="#DCE2FF"
-                        _hover={{ border: '2px solid #1C6FEB' }}
-                        leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
-                        Charlotte, NC
-                      </Button>
+                      
                     </VStack>
                   </Box>
 
@@ -143,12 +134,12 @@ export function ContactForm() {
               </WrapItem>
               <WrapItem>
                 <Box bg="white" borderRadius="lg">
-                  <Box m={8} color="#0B0E3F">
+                  <Box m={8} color="black">
                     <VStack spacing={5}>
                       <form ref={form} onSubmit={sendEmail}>
                         <FormControl id="name" isRequired>
                           <FormLabel>Your Name</FormLabel>
-                          <InputGroup borderColor="#E0E1E7">
+                          <InputGroup borderColor="black">
                             <InputLeftElement
                               pointerEvents="none"
                               children={<BsPerson color="gray.800" />}
@@ -158,7 +149,7 @@ export function ContactForm() {
                         </FormControl>
                         <FormControl id="e-mail" isRequired>
                           <FormLabel>E-Mail</FormLabel>
-                          <InputGroup borderColor="#E0E1E7">
+                          <InputGroup borderColor="black">
                             <InputLeftElement
                               pointerEvents="none"
                               children={<BsEnvelope color="gray.800" />}
@@ -178,22 +169,23 @@ export function ContactForm() {
                           defaultValue={message}
                           onBlur={handleChange}
                           name='message'
-                          borderColor="gray.300"
+                          borderColor="black"
                           _hover={{
                             borderRadius: 'gray.300',
                           }}
                           placeholder="message"
                         />
                       </FormControl>
-                      <FormControl id="send-button" float="right">
+                      <FormControl id="send-button">
                         <Button
                           mt={3}
                           type='submit'
                           value="Send"
                           onSubmit={sendEmail}
                           variant="solid"
-                          bg="#0D74FF"
+                          bg="gray.500"
                           color="white"
+                          align="center"
                           _hover={{}}>
                           Send Message
                         </Button>

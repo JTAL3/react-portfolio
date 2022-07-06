@@ -25,7 +25,7 @@ import PROJ6 from '../../assets/project-images/runbuddy.jpg';
 
 export function Project() {
   return (
-    <Center py={12} ps={6} bg={'blue.50'}>
+    <Center py={12} ps={6} bg={'black'}>
       <Flex>
         <Wrap justify='center' spacing={10}>
           <WrapItem>
@@ -36,7 +36,7 @@ export function Project() {
               maxW={'330px'}
               w={'full'}
               bg={useColorModeValue('white', 'gray.800')}
-              boxShadow={'2xl'}
+              
               rounded={'lg'}
               pos={'relative'}
               zIndex={1}>
@@ -70,16 +70,14 @@ export function Project() {
                 />
               </Box>
               <Stack pt={10} align={'center'}>
-                <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                  HTML/CSS
-                </Text>
+                
                 <Heading color={'#04054B'} fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                   Data Mammoth
                 </Heading>
                 <HStack pt={5}>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -88,7 +86,7 @@ export function Project() {
                   </Button>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -108,7 +106,7 @@ export function Project() {
               maxW={'330px'}
               w={'full'}
               bg={useColorModeValue('white', 'gray.800')}
-              boxShadow={'2xl'}
+              
               rounded={'lg'}
               pos={'relative'}
               zIndex={1}>
@@ -142,16 +140,14 @@ export function Project() {
                 />
               </Box>
               <Stack pt={10} align={'center'}>
-                <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                  HTML/CSS
-                </Text>
+                
                 <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                   Weather-Dashboard
                 </Heading>
                 <HStack pt={5}>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -160,7 +156,7 @@ export function Project() {
                   </Button>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -179,7 +175,7 @@ export function Project() {
               maxW={'330px'}
               w={'full'}
               bg={useColorModeValue('white', 'gray.800')}
-              boxShadow={'2xl'}
+              
               rounded={'lg'}
               pos={'relative'}
               zIndex={1}>
@@ -213,16 +209,14 @@ export function Project() {
                 />
               </Box>
               <Stack pt={10} align={'center'}>
-                <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                  HTML/CSS/JavaScript
-                </Text>
+                
                 <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                   Work-Scheduler
                 </Heading>
                 <HStack pt={5}>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -231,7 +225,7 @@ export function Project() {
                   </Button>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -250,7 +244,7 @@ export function Project() {
               maxW={'330px'}
               w={'full'}
               bg={useColorModeValue('white', 'gray.800')}
-              boxShadow={'2xl'}
+              
               rounded={'lg'}
               pos={'relative'}
               zIndex={1}>
@@ -284,16 +278,14 @@ export function Project() {
                 />
               </Box>
               <Stack pt={10} align={'center'}>
-                <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                 HTML/CSS/JavaScript/PWA
-                </Text>
+                
                 <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                   Pick-a-Flic
                 </Heading>
                 <HStack pt={5}>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -302,7 +294,7 @@ export function Project() {
                   </Button>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -321,7 +313,7 @@ export function Project() {
               maxW={'330px'}
               w={'full'}
               bg={useColorModeValue('white', 'gray.800')}
-              boxShadow={'2xl'}
+              
               rounded={'lg'}
               pos={'relative'}
               zIndex={1}>
@@ -355,16 +347,14 @@ export function Project() {
                 />
               </Box>
               <Stack pt={10} align={'center'}>
-                <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                HTML/CSS/JavaScript/APIs
-                </Text>
+                
                 <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                   Budget-Tracker
                 </Heading>
                 <HStack pt={5}>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -373,7 +363,7 @@ export function Project() {
                   </Button>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -392,7 +382,7 @@ export function Project() {
               maxW={'330px'}
               w={'full'}
               bg={useColorModeValue('white', 'gray.800')}
-              boxShadow={'2xl'}
+              
               rounded={'lg'}
               pos={'relative'}
               zIndex={1}>
@@ -412,11 +402,7 @@ export function Project() {
                   filter: 'blur(15px)',
                   zIndex: -1,
                 }}
-                _groupHover={{
-                  _after: {
-                    filter: 'blur(25px)',
-                  },
-                }}>
+                >
                 <Image
                   rounded={'lg'}
                   height={230}
@@ -426,16 +412,14 @@ export function Project() {
                 />
               </Box>
               <Stack pt={10} align={'center'}>
-                <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                HTML/CSS/JavaScript/MVC
-                </Text>
+                
                 <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                   Run Buddy
                 </Heading>
                 <HStack pt={5}>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}
@@ -444,7 +428,7 @@ export function Project() {
                   </Button>
                   <Button
                   as='a'
-                  bg={'blue.400'}
+                  bg={'gray.500'}
                   rounded={'full'}
                   color={'white'}
                   _hover={{ bg: 'blue.500' }}

@@ -10,6 +10,7 @@ import {
   Flex,
   HStack,
   IconButton,
+  Spacer,
   Button,
   useDisclosure,
   useColorModeValue,
@@ -17,29 +18,18 @@ import {
   
 } from '@chakra-ui/react';
 
-const font = "'Rock Salt', cursive";
-// const styles = theme = ({
-//   introText: {
-//     fontFamily: font,
-//     color: "white"
-//     }
-//   }
-// );
+const font = "Arial";
+
 
 
 export function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     
-      <Box bg={useColorModeValue('blue.400', 'gray.900')} px={6}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <IconButton
-            size={'md'}
-            aria-label={'Open Menu'}
-            display={{ md: 'none' }}
-            onClick={isOpen ? onClose : onOpen}
-          />
-          <HStack spacing={8} alignItems={'center'} >
+      <Box bg={useColorModeValue('gray.500', 'gray.500')} px={6}>
+        <Flex h={16}>
+          
+          
             <HStack
               as={'nav'}
               spacing={4}
@@ -48,8 +38,11 @@ export function Header() {
               <Text fontFamily={font}
                 color={'white'}
                 as='a'
-                href='/react-ewart-portfolio'
-                fontWeight='bold'>Jason Talbert</Text>
+                href='/react-portfolio'
+                fontWeight='bold' fontSize='2xl'>Jason Talbert</Text>
+                </HStack>
+                <Spacer />
+              <HStack>
               <Button
               as='a'
               href='/react-portfolio/#about-me'>
@@ -65,8 +58,8 @@ export function Header() {
               href='/react-portfolio/#contact-me'>
                 Contact Me
               </Button>
-            </HStack>
-          </HStack>
+              </HStack>
+          
         </Flex>
       </Box>
 
